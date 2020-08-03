@@ -89,7 +89,7 @@ if ( $key == 2 ) {
   $email = readline(" Lock Mail: ");
   $nick = readline(" Nick: ");
   $sleep = readline(" Jeda: ");
-  for ($i=1; $i <= 5 ; $i++) { 
+  for ($i=1; $i <= 50 ; $i++) { 
    curl( $email, $nick );
    echo "[{$green2} $i {$putih}]{$green2} Successfully Sended to {$lblue2}".$email." {$green2}Mantap Bro{$putih}\n";
    sleep($sleep);
